@@ -67,7 +67,7 @@ li{
 
 .home{
     display: flex;
-    background: url(/Arg-4.0/media/background-black-blue.jpg) no-repeat center;
+    background: url(media/background-black-blue.jpg) no-repeat center;
     height: 120vh;
     color: #fff;
     min-height: 500px;
