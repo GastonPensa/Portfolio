@@ -2,7 +2,7 @@
 // Event for Submit Button Form
 
 function sendForm() {
-  alert("Thank you for your message. I'll response you the soonest i can.")
+  alert("Thank you for your message. I'll response you the soonest i can!")
 }
 
 // Function for Scroll Button

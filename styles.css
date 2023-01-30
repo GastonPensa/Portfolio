@@ -290,6 +290,10 @@ footer span{
   transition: ease-in-out 0.3s;
 }
 
+
+/* Media Querys */
+
+
 @media (max-width: 1359px){
   .navbar{
     display: flex;
@@ -339,7 +343,6 @@ footer span{
     }
 
   }
-
   
   @media (max-width: 708px){
     .column-left{
@@ -373,9 +376,6 @@ footer span{
     }
 
   }
-
-
-
 
   @media (max-width: 609px){
     
