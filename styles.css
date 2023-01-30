@@ -109,12 +109,15 @@ li{
 }
 
 /* .column-left{
-/* hola }
+
 */
 
 
 .column-left img{
-padding-right: 200px ;
+margin-right: 200px ;
+width: 450px;
+height: 700px;
+
 }
 .about-content{
   display: flex;
@@ -306,6 +309,74 @@ footer span{
     }
   }
 
+  @media (max-width: 940px){
+    .column-left{
+      margin:0;
+      padding-left: 0;
+    }
+
+    .column-left img{
+      margin-right: 30px;
+    }
+
+    .column-right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    
+    .download{
+      background-color: #065cc9;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      width: 140px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 7px;
+    }
+
+  }
+
+  
+  @media (max-width: 708px){
+    .column-left{
+      margin:0;
+      padding-left: 0;
+    }
+
+    .column-left img{
+      margin-right: 30px;
+      height: 600px;
+      width: 300px;
+    }
+
+    .column-right{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 500;
+    }
+    
+    .download{
+      background-color: #065cc9;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      width: 140px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 7px;
+    }
+
+  }
+
+
+
+
   @media (max-width: 609px){
     
     .navbar{
@@ -320,4 +391,75 @@ footer span{
 
   @media (max-width: 519px){
    
+    .max-width{
+      padding: 0 30px;
+    }
+
+    .navbar{
+    display: block;
+    width: 100vw;
+    height: auto;
+   }
+
+   .menu{
+    display: block;
+
+   }
+
+   #myBtn{
+    position: fixed;
+    right: 60%;
+   }
+
+   .home .home-content .text-1 {
+    font-size: 27px;
   }
+  .home .home-content .text-2 {
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+  .home .home-content .text-3 {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+
+  .column-left{
+   display: none; 
+  }
+
+  .project-title{
+    color: white;
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .project-title p{
+    display: none;
+  }
+  
+  .project-cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact{
+    height: 68rem;
+  }
+
+
+  .social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .social-container a{
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  } 
