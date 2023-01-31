@@ -419,6 +419,23 @@ footer span{
     .nav-item{
       font-size: 15px;
     }
+
+    .download{
+      background-color: #065cc9;
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 12px;
+      width: 100px;
+      height: 50px;
+      padding: 10px;
+      border-radius: 7px;
+    }
+
+    .social-container a{
+      font-size: 15px;
+      padding: 5px;
+    }
   }
 
   @media (max-width: 519px){
