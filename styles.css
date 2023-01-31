@@ -311,6 +311,29 @@ footer span{
     .portfolio{
       display: none;
     }
+
+    .contact{
+      height: 50rem;
+    }
+
+    
+  }
+
+
+  @media (max-width: 1120px){
+   
+   
+    .project-cards{
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+      align-items: center;
+    }
+
+    #card-form{
+      height: 220px;
+
+    }
   }
 
   @media (max-width: 940px){
@@ -340,6 +363,10 @@ footer span{
       height: 50px;
       padding: 10px;
       border-radius: 7px;
+    }
+
+    .contact{
+      height: 56rem;
     }
 
   }
@@ -374,6 +401,11 @@ footer span{
       padding: 10px;
       border-radius: 7px;
     }
+
+    .contact{
+      height: 60rem;
+    }
+
 
   }
 
