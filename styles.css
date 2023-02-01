@@ -512,3 +512,102 @@ footer span{
   }
 
   } 
+
+  @media (max-width: 370px){
+
+    .max-width{
+      padding: 0 30px;
+    }
+
+    .navbar{
+    display: block;
+    width: 100vw;
+    height: auto;
+   }
+
+   .menu{
+    display: block;
+
+   }
+
+   #myBtn{
+    position: fixed;
+    right: 60%;
+   }
+
+   .home .home-content .text-1 {
+    font-size: 20px;
+  }
+  .home .home-content .text-2 {
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: -3px;
+  }
+  .home .home-content .text-3 {
+    font-size: 30px;
+    margin: 5px 0;
+  }
+
+  .column-left{
+   display: none; 
+  }
+
+  .project-title{
+    color: white;
+    text-align:start;
+    margin: 50px;
+    padding: 50px;
+    padding-left: 0;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  .project-title p{
+    display: none;
+  }
+  
+  .project-cards{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card{
+    width: 200px !important;
+  }
+
+  .card img{
+    width: 200px;
+  }
+
+  .card-body{
+    width: 200px;
+    height: 300px;
+  }
+
+
+  .contact{
+    height: 68rem;
+  }
+
+
+  .social-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .social-container a{
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .social-container img{
+    height: 30px;
+    width: 30px;
+  }
+
+  input{
+    width: 100px;
+  }
+
+  }
